@@ -12,7 +12,7 @@ function Nav() {
 </svg>
 
     </span>
-      <div className='w-full h-16  grid grid-cols-3 px-5 items-center bg-transparent'> 
+      <div className='w-full h-16  grid grid-cols-3 items-center bg-transparent'> 
         <span> POAI </span>
         <span className='w-full  flex flex-row justify-between items-center ' > 
          <Link href='/#tickets' scroll={true}>Tickets </Link>   
