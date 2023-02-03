@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 function Main() {
   return (
-    <div id='home' className='container overflow-hidden w-full min-h-screen relative'> 
+    <div id='home' className='container overflow-hidden w-full h-screen relative'> 
      <div className=' ' >
         <span className=' backdrop-blur-[40px] -z-10 h-full w-full absolute '> </span>
   <span className='absolute  -z-20 inset-x-0 top-5 flex flex-row justify-center translate-x-[30%] items-center mx-auto' >
@@ -28,12 +28,12 @@ function Main() {
            
     </div> 
     </div>
-    <div className='w-full h-full flex justify-between  flex-col '> 
+    <div className='w-full h-full flex justify-between  flex-col border-8 border-blue-800'> 
     <span className='text-7xl w-full flex-col z-30 uppercase font-bold translate-y-8 flex items-center justify-center text-center'> 
     <span>Cyprus&apos; biggest  </span>
     <span>poetry event </span></span>
-<span className='uppercase w-full font-bold  flex items-center justify-center '>
-  <Image src={BkmMain} alt='Poets on an Island' className='w-3/5' /> </span>
+<span className='uppercase w-full h-full font-bold  grid relative '>
+  <Image src={BkmMain} alt='Poets on an Island' className='w-full object-contain' fill/> </span>
   </div>
     </div>
   )
