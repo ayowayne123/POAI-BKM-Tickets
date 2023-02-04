@@ -24,16 +24,21 @@ function Main() {
          <Link href='/#book' scroll={true}>Book </Link>  
          <Link href='/#partner' scroll={true}> Partners </Link> 
              </span>
+             <span className='w-full flex items-center justify-center'> 
+             <span className='w-32 flex items-center justify-center font-semibold cursor-pointer hover:bg-[#f2910aad]   h-8 bg-[#F2910A] rounded-lg text-white uppercase tracking-wide'> 
+              Get tickets
+             </span>
+             </span>
 
            
     </div> 
     </div>
-    <div className='w-full h-full flex justify-between  flex-col border-8 border-blue-800'> 
-    <span className='text-7xl w-full flex-col z-30 uppercase font-bold translate-y-8 flex items-center justify-center text-center'> 
+    <div className='w-full h-full flex justify-between  flex-col '> 
+    <span className='tracking-widest text-7xl w-full flex-col  uppercase font-bold translate-y-7 flex items-center justify-center text-center'> 
     <span>Cyprus&apos; biggest  </span>
     <span>poetry event </span></span>
-<span className='uppercase w-full h-full font-bold  grid relative '>
-  <Image src={BkmMain} alt='Poets on an Island' className='w-full object-contain' fill/> </span>
+<span className=' uppercase w-full h-full z-10 font-bold  grid relative '>
+  <Image src={BkmMain} alt='Poets on an Island' className='w-full bg-gradient-to-b from-current to-transparent object-contain' fill/> </span>
   </div>
     </div>
   )
