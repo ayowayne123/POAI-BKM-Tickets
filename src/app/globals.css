@@ -1,3 +1,7 @@
+.cursor{
+  cursor: url(poai.cur) 2 2, grab;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,7 +10,14 @@
   body{
     background-color:  #2C2D34;
     color: white;
+    
   }
+
+  .triangle{
+    @apply border-b-[20px] border-r-[20px] border-l-[20px] border-b-[#F2910A] border-x-transparent
+
+  }
+  
 
  
 }

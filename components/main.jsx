@@ -1,13 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import Hero from '../public/Hero.png'
+import mic from '../public/mic.png'
 import BkmMain from '../public/BkmMain.png'
 import Link from 'next/link'
 
 
 function Main() {
   return (
-    <div id='home' className='container overflow-hidden w-full h-screen relative'> 
+    <div> 
+    <div id='home' className=' container overflow-hidden w-full h-screen relative'> 
      <div className=' ' >
         <span className=' backdrop-blur-[40px] -z-10 h-full w-full absolute '> </span>
   <span className='absolute  -z-20 inset-x-0 top-5 flex flex-row justify-center translate-x-[30%] items-center mx-auto' >
@@ -38,8 +39,14 @@ function Main() {
     <span>Cyprus&apos; biggest  </span>
     <span>poetry event </span></span>
 <span className=' uppercase w-full h-full z-10 font-bold  grid relative '>
-  <Image src={BkmMain} alt='Poets on an Island' className='w-full bg-gradient-to-b from-current to-transparent object-contain' fill/> </span>
+  <Image src={BkmMain} alt='Poets on an Island' className='w-fit cursor bg-gradient-to-b from-current to-transparent object-contain' fill/> </span>
+  
   </div>
+  <span className='w-full  flex-row flex items-center justify-center absolute bottom-0  z-30 '> 
+  <span  className=' triangle  '> </span></span>
+    </div>
+   
+    <span className='h-12 w-full flex items-center justify-center font-bold text-3xl text-white bg-[#F2910A] '>March 8th 2021</span>
     </div>
   )
   
