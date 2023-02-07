@@ -1,3 +1,4 @@
+const { fontFamily } = require('tailwindcss/defaultTheme')
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
@@ -18,6 +19,7 @@ module.exports = {
         '3xl': '3rem',
       },
     },
+    
   },
   variants: {
     fill: ['hover', 'focus'], 

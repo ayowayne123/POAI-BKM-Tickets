@@ -46,7 +46,10 @@ function Main() {
   <span  className=' triangle  '> </span></span>
     </div>
    
-    <span className='h-12 w-full flex items-center justify-center font-bold text-3xl text-white bg-[#F2910A] '>March 8th 2021</span>
+    <span className='h-12 lg:h-32 w-full flex flex-col items-center justify-center gap-2 font-bold text-3xl lg:text-5xl text-white bg-[#F2910A] '>
+      
+      <span> March 8th 2023</span>
+      <span className='lg:text-3xl'>Bkm Theatre, Terminal, Lefkosa. </span> </span>
     </div>
   )
   

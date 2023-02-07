@@ -1,6 +1,4 @@
-.cursor{
-  cursor: url(poai.cur) 2 2, grab;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,6 +8,8 @@
   body{
     background-color:  #2C2D34;
     color: white;
+    font-family: 'Inter', sans-serif;
+
     
   }
 
@@ -18,6 +18,8 @@
 
   }
   
-
+  .cursor{
+    cursor: url(poai.cur) 2 2, grab;
+  }
  
 }
