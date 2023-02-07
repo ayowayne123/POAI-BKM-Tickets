@@ -3,6 +3,7 @@ import { Inter } from '@next/font/google'
 import './globals.css'
 import Main from 'components/main' 
 import LineUp from 'components/lineUp'
+import Ticket from 'components/ticket'
 
 
 
@@ -12,6 +13,7 @@ export default function Home() {
       
      <Main/>
      <LineUp/>
+     <Ticket/>
    
       </div>
   )
