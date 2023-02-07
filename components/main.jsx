@@ -35,7 +35,7 @@ function Main() {
     </div> 
     </div>
     <div className='w-full h-full flex justify-between  flex-col '> 
-    <span className='tracking-widest text-7xl w-full flex-col  uppercase font-bold translate-y-7 flex items-center justify-center text-center'> 
+    <span className='tracking-widest text-3xl lg:text-7xl w-full flex-col  uppercase font-bold translate-y-7 flex items-center justify-center text-center'> 
     <span>Cyprus&apos; biggest  </span>
     <span>poetry event </span></span>
 <span className=' uppercase w-full h-full z-10 font-bold  grid relative '>
@@ -46,10 +46,10 @@ function Main() {
   <span  className=' triangle  '> </span></span>
     </div>
    
-    <span className='h-12 lg:h-32 w-full flex flex-col items-center justify-center gap-2 font-bold text-3xl lg:text-5xl text-white bg-[#F2910A] '>
+    <span className='h-20 lg:h-32 w-full flex flex-col items-center justify-center gap-2 font-bold text-2xl lg:text-5xl text-white bg-[#F2910A] '>
       
       <span> March 8th 2023</span>
-      <span className='lg:text-3xl'>Bkm Theatre, Terminal, Lefkosa. </span> </span>
+      <span className='lg:text-3xl text-base'>Bkm Theatre, Terminal, Lefkosa. </span> </span>
     </div>
   )
   

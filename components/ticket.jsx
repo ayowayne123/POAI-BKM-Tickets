@@ -4,7 +4,7 @@ import Regular from './regular'
 
 function Ticket() {
   return (
-    <div>
+    <div className='hidden lg:block'>
         <Stage/>
         <Regular/>
         <Regular/>
