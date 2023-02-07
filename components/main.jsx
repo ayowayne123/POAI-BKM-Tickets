@@ -39,7 +39,7 @@ function Main() {
     <span>Cyprus&apos; biggest  </span>
     <span>poetry event </span></span>
 <span className=' uppercase w-full h-full z-10 font-bold  grid relative '>
-  <Image src={BkmMain} alt='Poets on an Island' className='w-fit cursor bg-gradient-to-b from-current to-transparent object-contain' fill/> </span>
+  <Image src={BkmMain} alt='Poets on an Island' className='w-fit  bg-gradient-to-b from-current to-transparent object-contain' fill/> </span>
   
   </div>
   <span className='w-full  flex-row flex items-center justify-center absolute bottom-0  z-30 '> 
